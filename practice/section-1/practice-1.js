@@ -1,5 +1,6 @@
 'use strict';
 
 function collectSameElements(collectionA, collectionB) {
-  return '实现练习要求，并改写该行代码。';
+  // es6 version
+  return collectionA.filter(item => collectionB.indexOf(item) !== -1)
 }
